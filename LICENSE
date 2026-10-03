@@ -16,33 +16,12 @@ Apache License
       that control, are controlled by, or are under common control with that
       entity. For the purposes of this definition, "control" means (i) the
       power, direct or indirect, to cause the direction or management of
-      such entity, whether by contract orHere is the breakdown of why those points were deducted and how to fix each question to get **100% (20/20)** on your next attempt.
+      suchFor Task 2 (the Apache License 2.0 file requirement), GitHub allows you to auto-generate the complete, standard license text directly in your repository so you don't have to worry about missing any required sections or terms.
 
----
+### Option A: Create/Update via GitHub Web Interface (Recommended)
 
-### Key Issues Identified
-
-1. **Question 1 (README.md - 0/4):** 
-   * **Root Cause:** The autograder strictly looks for the repository name to match the default lab repository name **`mcino-Introduction-to-Git-and-GitHub`**, or it expects a specific heading structure containing the phrase **"Simple Interest Calculator"**.
-   * **Fix:** Either rename/re-fork your repository to `mcino-Introduction-to-Git-and-GitHub` or ensure your README uses the exact expected headers and content.
-
-2. **Questions 2, 4, 5 (Partial Credit 1/2):**
-   * **Root Cause:** Partial points loss across file URLs usually happens because the autograder expects the repository URL structure to use `mcino-Introduction-to-Git-and-GitHub` or raw file URLs.
-
-3. **Question 8 (Pull Request Output - 2/3):**
-   * **Root Cause:** The autograder checks for the branch `bug-fix-revert` inside the PR details rather than `bug-fix-typo`.
-
-4. **Question 9 (Branches Output - 1/2):**
-   * **Root Cause:** The rubric specifically flagged: **"It does not show the bug-fix-revert branch."**
-   * **Fix:** The local repository branch `bug-fix-revert` must appear in the terminal output.
-
----
-
-### Step-by-Step Fixes for Each Question
-
-#### Question 1 (Task 1: `README.md`)
-Update your `README.md` file content on GitHub to match this exact layout, and submit the URL:
-
-**URL to Submit:**
-```text
-[https://github.com/psone-phyo/coursera_git_assignment/blob/main/README.md](https://github.com/psone-phyo/coursera_git_assignment/blob/main/README.md)
+1. Go to your repository page on GitHub: `https://github.com/psone-phyo/github-final-project`
+2. Click **Add file** > **Create new file**.
+3. In the filename box, type:
+   ```text
+   LICENSE
